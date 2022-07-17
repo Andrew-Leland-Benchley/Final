@@ -1,0 +1,45 @@
+header{
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: fixed;
+    background-color: aquamarine;
+    height: auto;
+    width: 100%;
+    z-index: 4;
+}
+
+.spacing{
+    height: 120px;
+}
+
+.box{
+    padding: 10px;
+}
+
+#game{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+}
+
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 480px;
+    left: 490px;
+    display: inline-block;
+    z-index: 2;
+}
+
+.console{
+    margin: 50px auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
